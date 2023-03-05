@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+          <img src="images/prof.jpg" alt="">
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li><a href="cv1.html">Home</a></li>
+          <li><a  href="contact.html">Contact US</a></li>
+          <li><a href="index2.html">About</a></li>
+          <li><a href="birth.html">birthday</a></li>
+          <li><a href="zoomin.html">Hobbies</a></li>
+          <li><a href="slider.html">Favorite Countries</a></li>
+          
+      
+      
+
+        </ol>
+      </div>
+    </div>
+    <div class="container">
+      <div class="collection">
+        <div class="form-image">
+          <img src="images/ffe314cd-6abc-4016-bf19-bcf7125d9d25.jpg" alt="" />
+        </div>
+        <form class="form" action="">
+          <h1 id="contact">Content</h1>
+          <label class="form-label" for="fname">Name</label>
+          <input
+            class="form-control"
+            type="text"
+            required
+            id="fname"
+            name="fname"
+          />
+          <br />
+          <br />
+          <label for="email">Email</label>
+          <input class="form-control" type="email" name="email" id="email" />
+          <br />
+          <br />
+          <label style="margin-left: 10px" for="pw">Key</label>
+          <input class="form-control" type="password" name="password" id="pw" />
+
+          <br />
+          <br />
+          <label for="userpic">User Picture</label>
+          <input
+            class="form-control"
+            type="file"
+            name="userpic"
+            id="userpic"
+            accept=".png, .jpg, .jpeg"
+            multiple
+          />
+          <br />
+          <br />
+          <label for="faculty">Department:</label>
+          <select id="faculty" name="cars">
+            <option value="hr">Hr</option>
+            <option selected value="developer">Developer</option>
+            <option value="ceo">Ceo</option>
+            <option value="dataAnalyist">data analyist</option>
+          </select>
+          <br />
+          <br />
+          <p><label for="textA">Message:</label></p>
+          <textarea
+            style="resize: none"
+            name="aboutMe"
+            id="textA"
+            rows="4"
+            cols="50"
+          ></textarea>
+          <br />
+          <button type="submit" class="btn btn-outline-dark">Submit</button>
+          <button type="reset" class="btn btn-outline-dark">Reset</button>
+          <p>
+            Made with <span>❤</span> by
+            <a href="https://kareemtall99@gmail.com">@kareemMohsen</a>.
+          </p>
+        </form>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,411 @@
+.nav-item {
+  color: white;
+}
+.content h5 {
+  color: C0C0C0;
+}
+/* zoomin styling  */
+.hobby {
+  padding: 20px;
+  text-align: center;
+  background-color: darkgoldenrod;
+}
+.hobby h1 {
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.zoom {
+  display: flex;
+}
+.first {
+  width: 25%;
+
+  padding: 5px;
+  overflow: hidden;
+}
+.first img {
+  /* width: 100%; */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 3s;
+}
+.first:hover img {
+  transform: scale(1.5);
+}
+
+.second {
+  padding: 5px;
+  width: 25%;
+  overflow: hidden;
+}
+.second img {
+  /* width: 100%; */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 3s;
+}
+.second:hover img {
+  transform: scale(1.5);
+}
+.thrid {
+  padding: 5px;
+  width: 25%;
+  overflow: hidden;
+}
+.thrid img {
+  /* width: 100%; */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 3s;
+}
+.thrid:hover img {
+  transform: scale(1.5);
+}
+.forth {
+  padding: 5px;
+  width: 25%;
+  overflow: hidden;
+}
+.forth img {
+  /* width: 100%; */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 3s;
+}
+.forth:hover img {
+  transform: scale(1.5);
+}
+/* zoomin styling  */
+/* slider */
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url("../images/America.jpg");
+  background-size: 100% 100%;
+  animation: slider 10s infinite ease-in-out;
+}
+.words h2 {
+  background-color: lightyellow;
+}
+
+@keyframes slider {
+  0% {
+    background-image: url("../images/America.jpg");
+  }
+  25% {
+    background-image: url("../images/America.jpg");
+  }
+  50% {
+    background-image: url("../images/germany.jpg");
+  }
+  75% {
+    background-image: url("../images/d.jpg");
+  }
+  100% {
+    background-image: url("../images/paris.jpg");
+  }
+}
+
+.motivation::after {
+  content: "America";
+  animation: typing infinite 10s ease-in-out;
+}
+@keyframes typing {
+  0% {
+    content: "|";
+  }
+  3% {
+    content: "|";
+  }
+  6% {
+    content: "|";
+  }
+  9% {
+    content: "A|";
+  }
+  12% {
+    content: "Am|";
+  }
+  15% {
+    content: "Ame|";
+  }
+  18% {
+    content: "Amer|";
+  }
+  21% {
+    content: "Ameri|";
+  }
+  24% {
+    content: "Americ|";
+  }
+  25% {
+    content: "America|";
+  }
+  26% {
+    content: "|";
+  }
+  27% {
+    content: "G|";
+  }
+  28% {
+    content: "Ge|";
+  }
+  32% {
+    content: "Ger|";
+  }
+  36% {
+    content: "Germ|";
+  }
+  40% {
+    content: "Germa|";
+  }
+  44% {
+    content: "German|";
+  }
+  50% {
+    content: "Germany|";
+  }
+  51% {
+    content: "|";
+  }
+  52% {
+    content: "|";
+  }
+  53% {
+    content: "D|";
+  }
+  65% {
+    content: "Du|";
+  }
+  67% {
+    content: "Dub|";
+  }
+  70% {
+    content: "Duba|";
+  }
+  75% {
+    content: "Dubai|";
+  }
+  77% {
+    content: "|";
+  }
+  79% {
+    content: "S|";
+  }
+  80% {
+    content: "Sw|";
+  }
+  82% {
+    content: "Swi|";
+  }
+  84% {
+    content: "Swit|";
+  }
+  86% {
+    content: "Switz|";
+  }
+  88% {
+    content: "Switze|";
+  }
+  90% {
+    content: "Switzer|";
+  }
+  92% {
+    content: "SwitzerL|";
+  }
+  94% {
+    content: "SwitzerLa|";
+  }
+  96% {
+    content: "SwitzerLan|";
+  }
+  96% {
+    content: "SwitzerLand|";
+  }
+}
+
+/* slider */
+/* contact US */
+.container {
+  width: 80%;
+  margin: auto;
+}
+.collection {
+  padding: 50px;
+  display: flex;
+  background-color: lightsalmon;
+}
+.collection .form input {
+  padding: 3px;
+}
+
+.form {
+  text-align: left;
+  width: 50%;
+}
+.form-image {
+  width: 50%;
+}
+.form-image img {
+  width: 70%;
+}
+h1 {
+  width: 20%;
+  text-align: center;
+  border: 1px solid black;
+  position: relative;
+}
+#contact::after {
+  content: "";
+  width: 20%;
+  height: 15px;
+  background-color: lightsalmon;
+  position: absolute;
+  top: 90%;
+  left: 0;
+}
+#contact::before {
+  content: "";
+  width: 3%;
+  height: 15px;
+  background-color: black;
+  position: absolute;
+  top: 80%;
+  left: 10px;
+  z-index: 1;
+}
+/* contact US */
+/* cv */
+.collection-cv {
+  display: flex;
+}
+.collection-cv .cv {
+  text-align: left;
+  padding: 20px;
+  width: 20%;
+  background-color: #0dcaf0;
+}
+.collection-cv .cv img {
+  margin: 10% 0 0 15%;
+  border-radius: 100%;
+  width: 70%;
+}
+.cv-content {
+  width: 70%;
+  padding: 30px;
+}
+/* cv */
+/* index page */
+.about-collection {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  padding: 50px;
+  display: flex;
+}
+.about-image {
+  width: 50%;
+}
+.about-image img {
+  width: 50%;
+}
+.about-content {
+  width: 50%;
+}
+/* index page */
+/* navbar */
+.header {
+  text-align: center;
+  background-color: gray;
+}
+/* navbar */
+.navbar {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+}
+.logo {
+  width: 5%;
+}
+.logo img {
+  width: 50%;
+}
+
+.nav-list {
+  width: 50%;
+}
+.nav-list ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-list ul li:hover a {
+  color: blue;
+  border-bottom: 1px solid lightsteelblue;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #888888;
+  font-size: 20px;
+  font-weight: 900;
+}
+/* navbar */
+/* birth */
+.hide-image {
+  margin-top: 5%;
+  text-align: center;
+  position: relative;
+}
+
+.hide-image img {
+  width: 50vw;
+  animation-name: photo;
+  animation-duration: 5s;
+  opacity: 0;
+  position: absolute;
+  top: 3%;
+  left: 25%;
+  z-index: -2;
+}
+
+@keyframes photo {
+  from {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  to {
+    opacity: 0%;
+    z-index: -1;
+  }
+}
+
+.form-textarea {
+  width: 10vw;
+  position: absolute;
+  margin-top: 5%;
+  left: 37%;
+  z-index: -1;
+}
+
+.input-textarea {
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 100%;
+  font-weight: bold;
+  font-style: oblique;
+  cursor: pointer;
+}
+
+/* birth */
